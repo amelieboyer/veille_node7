@@ -1,3 +1,4 @@
+
 "use strict"
 let prenom = [
 				'Amélie',
@@ -27,6 +28,7 @@ let telephone = [
 			];	
 
 let courriel = [
+
 				'@gmail.com',
 				'@hotmail.fr',
 				'@yahoo.ca'
