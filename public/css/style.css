@@ -15,6 +15,11 @@ nav ul {
 nav ul li {
   padding: 5px;
 }
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Questrial';
+  font-size: 1.5em;
+}
 .tableau {
   margin: 0 auto;
   border-collapse: collapse;
