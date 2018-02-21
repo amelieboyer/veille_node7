@@ -87,7 +87,11 @@ footer {
   text-decoration: underline;
 }
 .retour {
+  display: flex;
   text-decoration: none;
   font-family: 'Questrial';
   font-size: 1.2em;
+  justify-content: flex-end;
+  margin-right: 550px;
+  margin-top: 10px;
 }
