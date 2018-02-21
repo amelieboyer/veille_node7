@@ -20,6 +20,11 @@ nav ul li a {
   font-family: 'Questrial';
   font-size: 1.5em;
 }
+nav ul li a:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transition: 0.5s;
+}
 .tableau {
   margin: 0 auto;
   border-collapse: collapse;
