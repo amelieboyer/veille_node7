@@ -9,7 +9,6 @@
 <body>
 	<h1>Carnet d'adresse</h1>
 	<h2>Membres</h2>
-	<a class="retour" href="http://localhost:8081">Retour</a>
  		<table class="tableau">
 
  			<% if(typeof test == 'undefined') {
@@ -74,6 +73,7 @@
  		<label>Courriel: <input type = "text" name="courriel"><br></label>
  		<input type="submit" value = "Ajouter un membre">
  	  </form>
+ 	  	<a class="retour" href="http://localhost:8081">Retour</a>
 
 
  	   <form id="mon_formulaire" class="formulaire" action = "/modifier" method = "POST">
@@ -84,7 +84,6 @@
  		<label>Courriel: <input type = "text" name="courriel"><br></label>
  		<input type="submit" value = "Ajouter un membre">
  	  </form>
-
  	<script type="text/javascript">
  	  	(function(){
 			 let elmSauver = document.querySelectorAll('.sauver')
