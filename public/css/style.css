@@ -11,8 +11,6 @@ h2 {
 }
 nav ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 nav ul li {
   display: inline;
@@ -22,11 +20,11 @@ nav ul li a {
   text-decoration: none;
   font-family: 'Questrial';
   font-size: 1.5em;
+  color: #000000;
+  pointer: cursor;
 }
 nav ul li a:hover {
-  background-color: #000000;
-  color: #ffffff;
-  transition: 0.5s;
+  text-decoration: underline;
 }
 .tableau {
   margin: 0 auto;
